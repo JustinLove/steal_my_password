@@ -1,7 +1,7 @@
 {
   "author": "wondible",
   "build": "66943",
-  "category": ["in-game", "ui"],
+  "category": ["main-menu"],
   "context": "client",
   "date": "2014/06/08",
   "description": "Saves your password and logs in.  User accepts all responsibility for lost or compromised passwords and accounts.",
@@ -14,7 +14,10 @@
   "requires": [],
   "scenes": {
     "start": [
-      "coui://ui/mods/steal_my_password/steal_my_password.js"
+      "coui://ui/mods/steal_my_password/start.js"
+    ],
+    "settings": [
+      "coui://ui/mods/steal_my_password/settings.js"
     ]
   },
   "signature": "not yet implemented",
