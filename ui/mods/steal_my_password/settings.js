@@ -1,5 +1,6 @@
 (function() {
-  var password = ko.observable('').extend({local: 'stealMyPassword'})
+  var key = 'a3chxSXbDRHxmd4t'
+  var password = ko.observable('').extend({local: key})
   model.showForget = ko.computed(function() {return password() != ''})
   model.pleaseDontStealMyPassword = function() {
     password('')
