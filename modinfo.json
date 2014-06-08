@@ -1,0 +1,23 @@
+{
+  "author": "wondible",
+  "build": "66943",
+  "category": ["in-game", "ui"],
+  "context": "client",
+  "date": "2014/06/08",
+  "description": "Saves your password and logs in.  User accepts all responsibility for lost or compromised passwords and accounts.",
+  "display_name": "Steal My Password",
+  "enabled": true,
+  "forum": null,
+  "id": "steal_my_password",
+  "identifier": "com.wondible.pa.steal_my_password",
+  "priority": 100,
+  "requires": [],
+  "scenes": {
+    "start": [
+      "coui://ui/mods/steal_my_password/steal_my_password.js"
+    ]
+  },
+  "signature": "not yet implemented",
+  "version": "0.1.0"
+}
+
