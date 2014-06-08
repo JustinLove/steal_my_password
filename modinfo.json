@@ -7,7 +7,7 @@
   "description": "Saves your password and logs in.  User accepts all responsibility for lost or compromised passwords and accounts.",
   "display_name": "Steal My Password",
   "enabled": true,
-  "forum": null,
+  "forum": "https://forums.uberent.com/threads/wip-steal-my-password.60630/",
   "id": "steal_my_password",
   "identifier": "com.wondible.pa.steal_my_password",
   "priority": 100,
